@@ -10,7 +10,5 @@ end
 hello_t("argument is blank") do |name| 
   if name.start_with?("T")
     puts "Hi, #{name}"
-  elsif name == "argument is blank"
-    puts "Hey! No block was given!"
   end
 end
