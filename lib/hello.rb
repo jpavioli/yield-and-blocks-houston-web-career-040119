@@ -10,5 +10,7 @@ end
 hello_t("Justin") do |name| 
   if name.start_with?("T")
     puts "Hi, #{name}"
+  elsif name == "Justin"
+    puts "Hey! No block was given!
   end
 end
