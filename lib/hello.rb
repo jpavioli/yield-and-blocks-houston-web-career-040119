@@ -13,7 +13,7 @@ end
 hello_t("argument is blank") do |name| 
   if name.start_with?("T")
     puts "Hi, #{name}"
-  elseif name.any? 
+  elsif name.any? 
     puts "Hey! No block was given!"
   else
     puts name.upcase
