@@ -2,9 +2,6 @@ def hello_t(array)
   i = 0
   while i < array.length
     x = yield array[i]
-    if x == ""
-      "Hey! No block was given!"
-    end
     i = i + 1
   end
   array
